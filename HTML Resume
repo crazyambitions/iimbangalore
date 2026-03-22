@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anish A. Jambhorkar | AI Strategy Consultant</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#summary">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Anish A. Jambhorkar</h1>
+            <h3>AI Business Management Strategy Consultant</h3>
+            <p>Location: Mumbai, India | <a href="mailto:jambhorkaranish@gmail.com">Email Me</a></p>
+        </section>
+
+        <hr>
+
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Entrepreneurial professional with ~2 years of experience transitioning into 
+                AI-driven business management strategy[cite: 22]. Specializing in bridging the gap between 
+                traditional business operations and modern AI implementation to drive 
+                measurable growth and efficiency[cite: 23, 26].
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+
+            <div>
+                <h3>Strategic AI Advisor (Independent Consultant)</h3>
+                <p><em>Remote | 2024 - Present</em></p>
+                <ul>
+                    <li>Developing AI transformation roadmaps for SMEs to automate redundant operational tasks.</li>
+                    <li>Analyzing business workflows to identify high-impact areas for LLM and Automation integration.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Head Of Sales | Bhoomi Gardening Solutions</h3>
+                <p><em>Pune, India | 11/2024 - 01/2025</em></p>
+                <ul>
+                    <li>Crafted strategies to scale business with a target of 189% sales increase[cite: 33].</li>
+                    <li>Analyzed farmer psychology to draft a rural market disruption strategy[cite: 34].</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Co-Founder | JackUp Media</h3>
+                <p><em>Pune, India | 08/2022 - 02/2024</em></p>
+                <ul>
+                    <li>Led a digital agency focused on the F&B sector, managing brand strategy[cite: 41].</li>
+                    <li>Executed campaigns that boosted restaurant footfall by an average of 40%[cite: 42].</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Core Skills & Tools</h2>
+            <ul>
+                <li><strong>Strategy:</strong> Brand Positioning, CRM, Market Analysis[cite: 50, 51].</li>
+                <li><strong>AI & Automation:</strong> Prompt Engineering, n8n, LangChain, AI Agent Building[cite: 52, 53, 54].</li>
+                <li><strong>Marketing:</strong> Facebook Ads, SMM, Copywriting[cite: 49, 50].</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Degree/Course</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IIM Bangalore</td>
+                        <td>BBA in Digital Business and Entrepreneurship</td>
+                        <td>2024 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>Mithibai College</td>
+                        <td>Bachelor of Management Studies (FYBMS)</td>
+                        <td>2023 - 2024 (1 Year)</td>
+                    </tr>
+                    <tr>
+                        <td>SBOA Public School</td>
+                        <td>Class X - SSC</td>
+                        <td>Graduated 2022 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="user_name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="user_email" required><br><br>
+
+                <label for="message">Consultation Request:</label><br>
+                <textarea id="message" name="user_message"></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anish A. Jambhorkar. Built for Web Development Module.</p>
+    </footer>
+
+</body>
+</html>
