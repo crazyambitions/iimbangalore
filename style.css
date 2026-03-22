@@ -1,0 +1,75 @@
+/* Student Note: Basic reset to make things look consistent */
+body {
+  font-family: 'Inter', sans-serif; /* Module 4: Google Font */
+  margin: 0;
+  background-color: #f0f2f5; 
+  color: #222;
+}
+
+/* Nav bar using Flexbox - Module 5 */
+nav {
+  display: flex;
+  background-color: #1a2a3a;
+  padding: 10px;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hover effect from Module 4 pseudo-classes */
+nav a:hover {
+  text-decoration: underline;
+  color: #ffcc00; 
+}
+
+/* Main layout using CSS Grid - Module 5 */
+main {
+  display: grid;
+  grid-template-columns: 250px 1fr; /* Sidebar for my info, rest for experience */
+  gap: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 25px;
+}
+
+/* Responsive fix for phones - Module 5 Media Queries */
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr; /* Stacks the sidebar on top of content on mobile */
+  }
+}
+
+/* Table styling for my Education section - Module 3/4 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Form styling - Module 4 Box Model */
+input, textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #1a2a3a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
